@@ -7,15 +7,15 @@ use \yii\web\AssetBundle;
 /**
  * @author KeyGen <keygenqt@gmail.com>
  */
-class BowerAssets extends AssetBundle
+class ActiveAssets extends AssetBundle
 {
-	public $sourcePath = '@bower/fancybox/dist';
+    public $sourcePath = '@keygenqt/fancyBox3/assets';
 
 	public $css = [
-		'jquery.fancybox.css'
+		'css/yii2-fancybox3.css'
 	];
 
 	public $js = [
-		'jquery.fancybox.js'
+
 	];
 }

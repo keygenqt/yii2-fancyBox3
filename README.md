@@ -27,6 +27,57 @@ The latest version of the module is v0.5.0 `BETA`.
 use keygenqt\fancyBox3\FancyBox3;
 ```
 
+```php
+<?php FancyBox3::begin([
+
+    'nameBtn' => 'Open FancyBox3',
+
+    'btnOption' => [
+        'class' => 'btn'
+    ],
+    'jsOption' => [
+        'focus' => false,
+    ]
+]) ?>
+
+    <div>
+        <h2>Hello!</h2>
+        <p>This is animated content! Cool, right?</p>
+    </div>
+
+<?php FancyBox3::end() ?>
+```
+
+```php
+<?= FancyBox3::widget([
+
+    'nameBtn' => 'Open YouTube',
+    'src' => 'https://www.youtube.com/watch?v=SRnzisLnnUo',
+
+    'btnOption' => [
+        'class' => 'btn'
+    ],
+    'jsOption' => [
+        'focus' => false,
+    ]
+]) ?>
+```
+
+```php
+<?php FancyBox3::begin([
+
+    'nameBtn' => 'Submit',
+
+    'btnOption' => [
+        'class' => 'btn'
+    ],
+    'jsOption' => [
+        'focus' => false,
+        'closeTpl' => false,
+    ]
+]) ?>
+```
+
 ## License
 
 **yii2-highcharts** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
