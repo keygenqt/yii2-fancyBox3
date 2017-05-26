@@ -11,7 +11,7 @@ Either add
 
 ```
 "require": {
-    "keygenqt/yii2-fancyBox3": "@dev"
+    "keygenqt/yii2-fancybox3": "@dev"
 }
 ```
 
