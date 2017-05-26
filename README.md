@@ -76,6 +76,16 @@ use keygenqt\fancyBox3\FancyBox3;
         'closeTpl' => false,
     ]
 ]) ?>
+
+<div>
+    <h2>Are you sure?</h2>
+    <p>Save this model?</p>
+
+    <div class="btn" onclick="$.fancybox.close();"> Cancel</div>
+    <div class="btn" onclick="$(this).closest('form').submit()">Save</div>
+</div>
+
+<?php FancyBox3::end() ?>
 ```
 
 ## License
