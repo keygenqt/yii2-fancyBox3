@@ -11,10 +11,8 @@
 
 .fancybox-slide--complete .yii2-fancybox3-dialog {
     opacity: 1;
-    transform: translate(0%) translateZ(0) rotate(0deg);
+    transform: initial;
 }
-
-
 .fancybox-slide--video .fancybox-content {
     width  : 890px;
     height : 500px;
