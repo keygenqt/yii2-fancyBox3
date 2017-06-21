@@ -12,7 +12,7 @@ class ActiveAssets extends AssetBundle
     public $sourcePath = '@keygenqt/fancyBox3/assets';
 
 	public $css = [
-		'css/yii2-fancybox3.css'
+		'css/yii2-fancybox3.css?v=1'
 	];
 
 	public $js = [
