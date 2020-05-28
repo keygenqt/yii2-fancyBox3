@@ -1,5 +1,8 @@
-yii2-fancyBox3
+Fancy Box 3
 ===================
+
+![GitHub](https://img.shields.io/github/license/keygenqt/yii2-fancyBox3)
+![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-fancyBox3)
 
 Wrap on a wonderful library [FancyBox](https://github.com/fancyapps/fancybox).
 
@@ -16,10 +19,6 @@ Either add
 ```
 
 of your `composer.json` file.
-
-## Latest Release
-
-The latest version of the module is v0.5.0 `BETA`.
 
 ## Usage
 
@@ -87,9 +86,3 @@ use keygenqt\fancyBox3\FancyBox3;
 
 <?php FancyBox3::end() ?>
 ```
-
-## License
-
-**yii2-highcharts** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
-
-
