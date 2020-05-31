@@ -1,11 +1,11 @@
 {
 	"name": "keygenqt/yii2-fancybox3",
-	"description": "Widget FancyBox3.",
-	"keywords": ["yii2", "extension", "widget", "jquery"],
-	"homepage": "https://github.com/keygenqt/yii2-fancyBox3",
+	"description": "Extension yii for library FancyBox3",
+	"keywords": ["yii2", "extension", "widget", "jquery", "fancy box", "FancyBox3"],
+	"homepage": "https://keygenqt.com/work/yii2-fancyBox3",
 	"type": "yii2-extension",
 	"license": "Apache-2.0",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"authors": [
 		{
 			"name": "Vitaliy Zarubin",

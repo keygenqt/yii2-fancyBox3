@@ -1,10 +1,10 @@
-Fancy Box 3
+[FancyBox3](https://keygenqt.com/work/yii2-fancyBox3)
 ===================
 
 ![GitHub](https://img.shields.io/github/license/keygenqt/yii2-fancyBox3)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-fancyBox3)
 
-Wrap on a wonderful library [FancyBox](https://github.com/fancyapps/fancybox).
+Extension yii for library [FancyBox3](http://fancyapps.com/fancybox/3/)
 
 ## Installation
 
