@@ -26,6 +26,8 @@ The preferred way to install this extension is through [composer](http://getcomp
 Html example
 
 ```php
+use keygenqt\fancyBox3\FancyBox3;
+
 <?php FancyBox3::begin([
 
     'nameBtn' => 'Open FancyBox3',
@@ -49,6 +51,8 @@ Html example
 Youtube example
 
 ```php
+use keygenqt\fancyBox3\FancyBox3;
+
 <?= FancyBox3::widget([
 
     'nameBtn' => 'Open YouTube',
