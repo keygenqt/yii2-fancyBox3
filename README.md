@@ -1,16 +1,19 @@
-[FancyBox3](https://keygenqt.com/work/yii2-fancyBox3)
+FancyBox3
 ===================
 
-![GitHub](https://img.shields.io/github/license/keygenqt/yii2-fancyBox3)
-![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-fancyBox3)
+![Packagist Downloads](https://img.shields.io/packagist/dt/keygenqt/yii2-fancyBox3?label=Packagist%20Downloads)
 
-Extension yii for library [FancyBox3](http://fancyapps.com/fancybox/3/)
+Extension yii2 allowing to use library [FancyBox3](http://fancyapps.com/fancybox/3/).
 
-## Installation
+<p>
+    <a href="https://old.keygenqt.com/work/yii2-fancyBox3">
+        <img src="data/demo_button.gif" width="136px"/>
+    </a>
+</p>
+
+#### Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either add
 
 ```
 "require": {
@@ -18,13 +21,9 @@ Either add
 }
 ```
 
-of your `composer.json` file.
+#### Usage
 
-## Usage
-
-```php
-use keygenqt\fancyBox3\FancyBox3;
-```
+Html example
 
 ```php
 <?php FancyBox3::begin([
@@ -47,6 +46,8 @@ use keygenqt\fancyBox3\FancyBox3;
 <?php FancyBox3::end() ?>
 ```
 
+Youtube example
+
 ```php
 <?= FancyBox3::widget([
 
@@ -62,27 +63,20 @@ use keygenqt\fancyBox3\FancyBox3;
 ]) ?>
 ```
 
-```php
-<?php FancyBox3::begin([
+#### License
 
-    'nameBtn' => 'Submit',
+```
+Copyright 2017-2024 Vitaliy Zarubin
 
-    'btnOption' => [
-        'class' => 'btn'
-    ],
-    'jsOption' => [
-        'focus' => false,
-        'closeTpl' => false,
-    ]
-]) ?>
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-<div>
-    <h2>Are you sure?</h2>
-    <p>Save this model?</p>
+    http://www.apache.org/licenses/LICENSE-2.0
 
-    <div class="btn" onclick="$.fancybox.close();"> Cancel</div>
-    <div class="btn" onclick="$(this).closest('form').submit()">Save</div>
-</div>
-
-<?php FancyBox3::end() ?>
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 ```
